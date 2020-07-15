@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=SoftmakerOffice
+Name=Softmaker Office
 Comment=Use SoftmakerOffice to edit documents.
 Exec=AppRun %U
-GenericName=SoftmakerOffice
+GenericName=Softmaker Office
 MimeType=application/x-tmdx;application/x-tmvx;application/x-tmd;application/x-tmv;application/msword;application/vnd.ms-word;application/x-doc;text/rtf;application/rtf;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-template;application/vnd.stardivision.writer;application/vnd.sun.xml.writer;application/vnd.sun.xml.writer.template;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.ms-word.document.macroenabled.12;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.ms-word.template.macroenabled.12;application/x-pocket-word;application/x-dbf;application/msword-template;
 StartupNotify=false
 Terminal=false
@@ -17,7 +17,7 @@ Actions=Writer;Spreadsheets;Presentation;
 
 
 [Desktop Action Writer]
-Name=SoftmakerOffice TextMaker
+Name=TextMaker
 GenericName=Word Processor
 Comment=The TextMaker word processor lets you work on any type of document.
 Comment[de]=Die Textverarbeitung TextMaker ermöglicht es Ihnen, beliebige Arten von Dokumenten zu erstellen und zu bearbeiten.
@@ -29,8 +29,8 @@ StartupNotify=false
 Icon=softmakeroffice
 
 [Desktop Action Spreadsheets]
-Name=SoftmakerOffice Spreadsheet
-GenericName=FreeOffice Spreadsheet
+Name=Spreadsheet
+GenericName=Spreadsheet
 Comment=PlanMaker lets you create all kinds of spreadsheets -- from simple ones to the most complex ones. Includes a high-caliber charting module.
 Comment[de]=Mit PlanMaker können Sie alle Arten von Arbeitsblättern erstellen -- von ganz einfachen bis zu den komplexesten. Inklusive eines leistungsstarken Diagrammmoduls.
 Comment[ru]=PlanMaker позволяет создавать все виды электронных таблиц, от простых до сложных. Включает в себя мощный модуль для составления диаграмм.
@@ -40,8 +40,8 @@ StartupNotify=false
 Icon=softmakeroffice
 
 [Desktop Action Presentation]
-Name=SoftmakerOffice Presentations
-GenericName=SoftmakerOffice Presentations
+Name=Presentations
+GenericName=Presentations
 Comment=The Presentations software lets you design any kind of presentation - even including special effects, animations, and transitions.
 Comment[de]=Presentations lässt Sie beliebige Präsentationen gestalten - mit Effekten, Animationen und Transitionen.
 Comment[ru]=Presentations позволяет создавать все виды презентаций и добавлять в них специальные эффекты, анимацию и переходы.
