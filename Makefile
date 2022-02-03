@@ -32,7 +32,7 @@ all:
 	echo '  *)   exec $${APPDIR}/softmaker/textmaker "$${@}" ;;' 						>> $(PWD)/build/Boilerplate.AppDir/AppRun
 	echo 'esac' 																		>> $(PWD)/build/Boilerplate.AppDir/AppRun
 
-	wget --output-document=$(PWD)/build/build.deb "https://www.softmaker.net/down/softmaker-office-2021_1016-01_amd64.deb"
+	wget --output-document=$(PWD)/build/build.deb "https://www.softmaker.net/down/softmaker-office-2021_1042-01_amd64.deb"
 	dpkg -x $(PWD)/build/build.deb $(PWD)/build/
 
 	cp --force --recursive $(PWD)/build/usr/share/office**/* $(PWD)/build/Boilerplate.AppDir/softmaker
